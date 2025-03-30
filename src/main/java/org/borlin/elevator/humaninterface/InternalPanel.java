@@ -2,7 +2,6 @@ package org.borlin.elevator.humaninterface;
 
 import org.borlin.elevator.Floor;
 
-import java.util.HashSet;
 import java.util.Map;
 
 public class InternalPanel extends ButtonPanel {

@@ -1,7 +1,5 @@
 package org.borlin.elevator.humaninterface;
 
-import org.borlin.elevator.ElevatorCallRequest;
-import org.borlin.elevator.Floor;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

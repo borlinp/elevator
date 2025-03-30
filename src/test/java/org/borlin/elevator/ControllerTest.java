@@ -45,7 +45,7 @@ class ControllerTest {
         try {
             panel = new TwoButtonPanel(buttons, null);
         } catch (Exception e) {
-            System.out.println("Oops. Something went wrong with my panel creation.  " + e.toString()); //TODO: handle correctly
+            System.out.println("Oops. Something went wrong with my panel creation.  " + e); //TODO: handle correctly
         }
         floor1.setPanel(panel);
 

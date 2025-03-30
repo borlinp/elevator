@@ -76,12 +76,12 @@ class DefaultUpDownMovementCalculatorTest {
         floors.add(fifthFloor);
         floors.add(sixthFloor);
 
-        firstFloor.setPanel(new ButtonPanel(new HashSet<>(Arrays.asList(firstFloorUpButton)), null));
+        firstFloor.setPanel(new ButtonPanel(new HashSet<>(Collections.singletonList(firstFloorUpButton)), null));
         secondFloor.setPanel(new ButtonPanel(new HashSet<>(Arrays.asList(secondFloorUpButton, secondFloorDownButton)), null));
         thirdFloor.setPanel(new ButtonPanel(new HashSet<>(Arrays.asList(thirdFloorUpButton, thirdFloorDownButton)), null));
         fourthFloor.setPanel(new ButtonPanel(new HashSet<>(Arrays.asList(forthFloorUpButton, forthFloorDownButton)), null));
         fifthFloor.setPanel(new ButtonPanel(new HashSet<>(Arrays.asList(fifthFloorUpButton, fifthFloorDownButton)), null));
-        sixthFloor.setPanel(new ButtonPanel(new HashSet<>(Arrays.asList(sixthFloorDownButton)), null));
+        sixthFloor.setPanel(new ButtonPanel(new HashSet<>(Collections.singletonList(sixthFloorDownButton)), null));
 
         HashMap<Button, Floor> internalButtons = new HashMap<Button, Floor>(16, 8);
         internalButtons.put(gotoFirstButton, this.firstFloor);
