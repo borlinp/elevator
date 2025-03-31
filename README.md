@@ -1,9 +1,9 @@
 # elevator
 
 # Assumptions
-This was a common elevator in a build that only travelled up and down.
+This was a common elevator in a building that only travelled up and down.
 
-The elevator would complete all requests in a single direction before changing directions 
+The elevator would complete all requests in a single direction before changing directions. 
 
 I was creating this as if I was working for an elevator company.  An assumption in that
 is the company would likely like to sell modular elevators to meet the need of
